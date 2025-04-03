@@ -13,10 +13,10 @@ function Footer() {
   return (
            
      
-      <div className='md:w-full flex md:block '>
-        <div className='bg-blue-950  p-28'>
-            <h2 className='text-center text-5xl text-white font-bold'>Try Whitespace today</h2>
-            <div className='mt-5'><p className='text-center  text-white text-2xl'>Get started for free.
+      <div className='md:w-full  md:block '>
+        <div className='bg-blue-950 p-28 '>
+            <h2 className='md:text-center md:text-5xl text-white font-bold md:mt-5'>Try Whitespace today</h2>
+            <div className='mt-5'><p className='md:text-center  text-white md:text-2xl'>Get started for free.
             Add your whole team as your needs grow.</p></div>
             <div className='flex  justify-center items-center mt-5'>
               <button className='p-4 bg-blue-400 rounded-md text-white flex items-center  '>Try Tashkey free<FaArrowRightLong className='ml-2' /></button>
@@ -29,7 +29,7 @@ function Footer() {
             <TfiMicrosoftAlt className='fill-white size-20' />
             <DiAndroid className='fill-white size-20'/>
             </div>
-            <div className=' flex mt-20'>
+            <div className='md:flex mt-20 md:mt-10 container'>
               <div>
                     <a href="" className="flex">
                       <IoIosSnow className='size-10 fill-white' />
@@ -37,24 +37,24 @@ function Footer() {
                     </a>
                     <p className='text-white text-1xl'>whitepace was created for the new ways we live and work. We make a better workspace around the world.</p>
               </div>
-              <div className='pl-24'>
-                <div className='space-y-3'>
+              <div className='md:pl-20'>
+                <div className='md:space-y-3'>
                   <h2 className='text-white font-bold text-1xl'>Product</h2>
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>Overview</h2>
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>Pricing</h2>
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>Customer Stories</h2>
                 </div>
               </div>
-              <div className='pl-24'>
-                <div className='space-y-3'>
+              <div className='md:pl-20 '>
+                <div className='md:space-y-3'>
                   <h2 className='text-white font-bold text-1xl'>Resources</h2>
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>Blog</h2>
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>Guides & tutorials</h2>
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>Help center</h2>
                 </div>
               </div>
-              <div className='pl-24'>
-                <div className='space-y-3'>
+              <div className='md:pl-20'>
+                <div className='md:space-y-3'>
                   <h2 className='text-white font-bold text-1xl'>Company</h2>
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>About us</h2>
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>Careers
@@ -62,8 +62,8 @@ function Footer() {
                   <h2 className='text-white text-1xl font-thin hover:text-orange-400'>Media kit</h2>
                 </div>
               </div>
-              <div className='pl-24'>
-                <div className='space-y-3'>
+              <div className='md:pl-20'>
+                <div className='md:space-y-3'>
                   <h2 className='text-white font-bold text-2xl'>Try It Today</h2>
                   <p className='text-white '>Get started for free.
                   Add your whole team as your needs grow.</p>
@@ -75,8 +75,8 @@ function Footer() {
                
             </div>
            <hr className='border-gray-700 mt-20'/>
-           <div className='flex mt-20 justify-center items-center gap-5'>
-           <label> <IoGlobeOutline className='fill-white size-5' /> </label>
+           <div className='md:flex mt-20 justify-center items-center gap-5 '>
+           <label> <IoGlobeOutline className='fill-white size-5 ' /> </label>
             <select id="dropdown">
             <option value="" disabled selected>Select an option</option>
             <option value="option1" id='dropdown'>ENGLISH</option>

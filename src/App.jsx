@@ -7,12 +7,14 @@ import Service from './pages/Service'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
+
 function App() {
   return (
    
     <div>
-   
+    
     <BrowserRouter>
+    
     <Navbar/>
     
     <Routes>
